@@ -34,7 +34,7 @@ function preload()
 
 function setup() 
 {
-  createCanvas(1650, 1000);
+  createCanvas(1400, 700);
   
    knob_Angle [0]= 0;
    knob_Angle [1]= 0;
@@ -103,7 +103,7 @@ function draw_Knob()
 {
   imageMode(CENTER);
   push();
-  translate(675, 700);
+  translate(1000, 500);
   rotate(knob_Angle[lastSelected]);
   image(knob_img, 0, 0);
   pop();
