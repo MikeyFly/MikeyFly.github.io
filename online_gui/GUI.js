@@ -82,7 +82,7 @@ angleMode(DEGREES);
   textSize(32);
   textAlign(CENTER, CENTER);
   //fontAwesome_Test(300, 550);
-   // noLoop();
+    noLoop();
 
 }
 
