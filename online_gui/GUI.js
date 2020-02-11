@@ -95,7 +95,7 @@ function draw()
   imageMode(CORNER);
 
   background(bg_img); // with transparancy
-// draw_Knob()   //BUTTON, RADIO controls draw automatically
+ draw_Knob()   //BUTTON, RADIO controls draw automatically
 }
 
 
@@ -104,7 +104,7 @@ function draw_Knob()
   imageMode(CENTER);
   push();
   translate(1000, 500);
-  rotate(knob_Angle[lastSelected]);
+  rotate(knob_Angle[lastSelected]-127);
   image(knob_img, 0, 0);
   pop();
 }
