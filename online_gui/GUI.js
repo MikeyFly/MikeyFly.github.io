@@ -95,7 +95,7 @@ function draw()
   imageMode(CORNER);
 
   background(bg_img); // with transparancy
- draw_Knob()   //BUTTON, RADIO controls draw automatically
+// draw_Knob()   //BUTTON, RADIO controls draw automatically
 }
 
 
