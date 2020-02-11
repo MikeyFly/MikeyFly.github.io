@@ -82,7 +82,7 @@ angleMode(DEGREES);
   textSize(32);
   textAlign(CENTER, CENTER);
   //fontAwesome_Test(300, 550);
-    noLoop();
+   // noLoop();
 
 }
 
@@ -104,7 +104,7 @@ function draw_Knob()
   imageMode(CENTER);
   push();
   translate(1000, 500);
-  rotate(knob_Angle[buttonSelected]-127);
+  rotate(knob_Angle[buttonSelected]);
   image(knob_img, 0, 0);
   pop();
 }
