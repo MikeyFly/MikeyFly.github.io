@@ -17,7 +17,7 @@ let textfont;
 let knob_Angle=[];
 
 var buttonSelected, lastSelected ;
-var knob_Offset=90;
+var knob_Offset=135;
 var clickX = mouseX; // mouseX when CLICKED
 var clickY= mouseY;// mouseY when CLICKED
 function preload()
