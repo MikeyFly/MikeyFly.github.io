@@ -104,7 +104,7 @@ function draw_Knob()
   imageMode(CENTER);
   push();
   translate(1000, 500);
-  rotate(knob_Angle[buttonSelected]);
+  rotate(knob_Angle[buttonSelected]-127);
   image(knob_img, 0, 0);
   pop();
 }
